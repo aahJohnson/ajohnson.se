@@ -1,0 +1,30 @@
+.navbar {
+  height: 60vh;
+  width: 5vw;
+  position: absolute;
+  top: 10vh;
+  left: 10vw;
+  overflow: hidden;
+  background-color: inherit;
+  border-right: 1px solid black;
+  padding: 10rem 0 0 0;
+  list-style: none;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.navbar li {
+  padding: 1rem 0 1rem 0;
+}
+
+.navbar img {
+  height: 1.5rem;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
