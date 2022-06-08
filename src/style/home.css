@@ -1,14 +1,10 @@
-.home {
-  border-bottom: 1px solid #212121;
-}
-
-.home li {
-  list-style: none;
-  display: inline;
-  padding: 0;
-  margin: 0 2rem 0 0;
-}
-
-.introText {
-  width: 60%;
+.homeBackground {
+  background-image: url("../icons/bgTwo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3px;
+  height: 95%;
+  width: 95%;
+  padding: 2.5%;
 }

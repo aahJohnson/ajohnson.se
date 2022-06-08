@@ -19,11 +19,17 @@ function App() {
   return (
     <div class="App">
       <BrowserRouter>
-        <Navbar />
-        <Home />
-        <Experience />
-        <Education />
-        <Skills />
+        <div class="appMain">
+          <div class="appSkills">
+            <Skills />
+          </div>
+          <div class="appHome">
+            <Home />
+          </div>
+          <div class="appExp">
+            <Experience />
+          </div>
+        </div>
       </BrowserRouter>
     </div>
   );

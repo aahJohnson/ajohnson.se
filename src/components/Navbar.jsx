@@ -12,30 +12,7 @@ import educationIcon from "../icons/educationIcon.png";
 import skillsIcon from "../icons/skillsIcon.png";
 
 const Navbar = () => {
-  return (
-    <div class="navbar">
-      <li>
-        <Link to="/">
-          <img src={homeIcon} alt="Home"></img>
-        </Link>
-      </li>
-      <li>
-        <Link to="/Experience">
-          <img src={workIcon} alt="Home"></img>
-        </Link>
-      </li>
-      <li>
-        <Link to="/Education">
-          <img src={educationIcon} alt="Home"></img>
-        </Link>
-      </li>
-      <li>
-        <Link to="/Skills">
-          <img src={skillsIcon} alt="Home"></img>
-        </Link>
-      </li>
-    </div>
-  );
+  return <div class="navbar"></div>;
 };
 
 export default Navbar;

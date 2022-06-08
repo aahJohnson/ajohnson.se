@@ -1,4 +1,38 @@
 .experience {
-  border-bottom: 1px solid #212121;
-  min-height: 20vh;
+  height: 100%;
+  width: 100%;
+}
+
+.expList {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: auto;
+  column-gap: 5%;
+  row-gap: 2.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.expList li {
+  display: inline-block;
+  height: 10rem;
+  width: 90%;
+  background-color: #21262d;
+  border-radius: 3px;
+  padding: 5%;
+}
+
+.tileTitle {
+  margin: 0 0 0.5rem 0;
+}
+
+.tileInfo {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #8b949e;
+}
+
+.tileDescription {
+  font-size: 0.8rem;
+  color: #8b949e;
 }
