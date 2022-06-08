@@ -1,1 +1,1 @@
-This is a personal sideproject containing a personal CV, made with React.
+This is a personal sideproject containing my CV, made with React.
