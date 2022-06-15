@@ -1,4 +1,89 @@
 .skills {
   background-color: #21262d;
   min-height: 90vh;
+  text-align: center;
+}
+
+/* Personal */
+.personal {
+  padding: 2rem 0 1rem 0;
+  margin: 0 10% 0 10%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profileImg {
+  width: 45%;
+  border-radius: 50%;
+}
+
+.name {
+  margin: 0;
+}
+
+.title {
+  font-size: 0.9rem;
+  color: #8b949e;
+}
+
+/* About */
+.about {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  padding: 1rem 0 1rem 0;
+  margin: 0 10% 0 10%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.aboutQ {
+  text-align: left;
+}
+
+.aboutA {
+  text-align: right;
+  font-style: italic;
+  color: #8b949e;
+}
+
+/* Languages */
+.languages {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  column-gap: 0;
+  padding: 1rem 0 1rem 0;
+  margin: 0 10% 0 10%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.languages li {
+  display: inline-block;
+}
+
+/* Skillbars */
+.skillBars {
+  list-style: none;
+  padding: 1rem 0 1rem 0;
+  margin: 0 10% 0 10%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.skillTitle {
+  text-align: left;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.progressBarBackground {
+  background-color: #0d1117;
+}
+
+.progressBarProgress {
+  width: 85%;
+  height: 0.8rem;
+  background-color: #ffa500;
+  color: black;
+  border-radius: 1rem;
+  font-size: 0.5rem;
 }
