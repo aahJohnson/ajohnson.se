@@ -1,1 +1,3 @@
-This is a personal sideproject containing my CV, made with React.
+Personal CV for Adam Johnson, created with react.
+
+NOTE: Work in progress, not yet finished!
