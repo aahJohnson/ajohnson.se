@@ -1,11 +1,19 @@
 import React, { Component } from "react";
-import "../style/exp.css";
+import "../style/experience.css";
 
 const Experience = () => {
   return (
     <div class="experience">
       <h1>Experience</h1>
       <ul class="expList">
+        <li>
+          <h4 class="tileTitle">Internship - Knologram</h4>
+          <p class="tileInfo">Malmö, 2022</p>
+          <p class="tileDescription">
+            6 weeks of internship at Knologram in the spring of 2022, mainly
+            working with HTML, CSS and .NET.
+          </p>
+        </li>
         <li>
           <h4 class="tileTitle">Bartender - Bishops Arms</h4>
           <p class="tileInfo">Eskilstuna, 2020</p>

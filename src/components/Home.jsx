@@ -5,16 +5,16 @@ const Home = () => {
   return (
     <div class="homeBackground">
       <div class="home">
-        Home
-        <p class="introText">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-          mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-          voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-          fugiat iusto fuga praesentium optio, eaque rerum! Provident similique
-          accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut
-          molestias architecto voluptate aliquam nihil, eveniet aliquid culpa
-          officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum
-          nesciunt ipsum debitis quas aliquid.
+        <div class="person">
+          <h1 class="name">Adam Johnson</h1>
+          <p class="title">Web developer</p>
+        </div>
+        <p class="introduction">
+          A 27 year old recent developer-graduate looking to transition from a
+          history in service-oriented jobs to web development. My interests
+          include running, watching football aswell as anything to do with
+          computers, from building them to programming and playing games with
+          friends.
         </p>
       </div>
     </div>
