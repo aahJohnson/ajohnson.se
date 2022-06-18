@@ -1,6 +1,6 @@
 .skills {
   background-color: #21262d;
-  min-height: 90vh;
+  height: auto;
   border-radius: 3px;
 }
 
@@ -111,9 +111,11 @@
 /* Contact */
 .contact {
   display: grid;
-  grid-template-columns: 25% 25% 25%;
-  margin-left: 15%;
+  grid-template-columns: 20% 20% 20%;
+  column-gap: 20%;
   list-style: none;
+  text-align: center;
+  padding: 0 25% 0 25%;
 }
 
 .contact li {
@@ -131,11 +133,57 @@
 .contact p {
   height: auto;
   width: auto;
-  overflow: hidden;
 }
 
 .contactInfo {
   color: #8b949e;
   font-size: 0.8rem;
   text-align: center;
+  padding-bottom: 3rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1200px) {
+  .skills {
+    height: auto;
+    width: 80%;
+    margin: 0 0 5rem 12.5%;
+  }
+
+  .about,
+  .languages,
+  .skillBars,
+  .contactInfo {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .about {
+    font-size: 1.2rem;
+  }
+
+  .languages li {
+    margin: 0 40% 0.5rem 40%;
+  }
+
+  .swedishProgress,
+  .englishProgress {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
+  .languages p {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    margin: 0.25rem;
+  }
+
+  .contact {
+    padding: 0 35% 0 35%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
 }

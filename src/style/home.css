@@ -1,10 +1,11 @@
 .homeBackground {
-  background-image: url("../icons/bgImg.jpg");
+  background-color: #21262d;
+  background-image: url("../media/bgImg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 3px;
-  height: 95%;
+  height: 100%;
   width: 100%;
   padding: 2.5%;
 }
@@ -32,4 +33,15 @@
   margin-top: 3rem;
   padding: 1rem;
   border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1200px) {
+  .name {
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
 }

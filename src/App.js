@@ -9,7 +9,6 @@ import {
 } from "react-router-dom";
 
 // components
-import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";

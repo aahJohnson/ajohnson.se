@@ -84,7 +84,7 @@ const Skills = () => {
             rel="noreferrer"
           >
             <img
-              src={require("../icons/githubIcon.png")}
+              src={require("../media/githubIcon.png")}
               alt="Github"
               class="contactIcon"
               title="Github"
@@ -98,7 +98,7 @@ const Skills = () => {
             rel="noreferrer"
           >
             <img
-              src={require("../icons/linkedinIcon.png")}
+              src={require("../media/linkedinIcon.png")}
               alt="LinkedIn"
               class="contactIcon"
               title="LinkedIn"
@@ -112,7 +112,7 @@ const Skills = () => {
             rel="noreferrer"
           >
             <img
-              src={require("../icons/emailIcon.png")}
+              src={require("../media/emailIcon.png")}
               alt="Email"
               class="contactIcon"
               title="Email me!"
