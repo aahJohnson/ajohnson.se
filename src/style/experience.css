@@ -52,4 +52,17 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .experience {
+    height: auto;
+  }
+
+  .expList {
+    grid-template-columns: 100%;
+    row-gap: 1rem;
+    margin: 0;
+  }
+
+  .expList li {
+    border-radius: 0;
+  }
 }

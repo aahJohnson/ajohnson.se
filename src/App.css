@@ -54,16 +54,33 @@
 
   .appExp {
     grid-column: 1 / 4;
-    grid-row: 2;
+    grid-row: 3;
   }
 
   .appSkills {
     grid-column: 1 / 4;
-    grid-row: 3;
+    grid-row: 2;
   }
 }
 @media only screen and (max-width: 600px) {
   html {
     font-size: 12px;
+  }
+
+  .appMain {
+    grid-template-columns: 100%;
+    row-gap: 1rem;
+  }
+
+  .appHome {
+    grid-column: 1;
+  }
+
+  .appExp {
+    grid-column: 1;
+  }
+
+  .appSkills {
+    grid-column: 1;
   }
 }

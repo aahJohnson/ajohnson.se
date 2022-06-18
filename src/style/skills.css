@@ -147,8 +147,8 @@
 @media only screen and (max-width: 1200px) {
   .skills {
     height: auto;
-    width: 80%;
-    margin: 0 0 5rem 12.5%;
+    width: 105%;
+    margin: 2rem 0 0 0%;
   }
 
   .about,
@@ -186,4 +186,13 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .skills {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .languages li {
+    margin: 0 35% 0.5rem 35%;
+  }
 }
