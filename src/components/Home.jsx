@@ -7,7 +7,7 @@ const Home = () => {
       <div class="home">
         <div class="person">
           <h1 class="name">Adam Johnson</h1>
-          <p class="title">Web developer</p>
+          <p class="title">Web Developer</p>
         </div>
         <p class="introduction">
           A 27 year old recent developer-graduate looking to transition from a

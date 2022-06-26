@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../style/experience.css";
 
 const Experience = () => {
@@ -34,17 +34,25 @@ const Experience = () => {
         <li>
           <h4 class="tileTitle">Waiter/Bartender - Papas Tapas</h4>
           <p class="tileInfo">Eskilstuna, 2016</p>
-          <p class="tileDescription"></p>
+          <p class="tileDescription">
+            I worked extra as a waiter and some nights as a bartender during the
+            first half of 2016.
+          </p>
         </li>
         <li>
           <h4 class="tileTitle">Waiter/Bartender - Pitcher's</h4>
           <p class="tileInfo">Eskilstuna, 2013 - 2015</p>
-          <p class="tileDescription"></p>
+          <p class="tileDescription">
+            Bartending, serving food, keeping the restaurant clean.
+          </p>
         </li>
         <li>
           <h4 class="tileTitle">Newspaper Salesman - Expressen</h4>
           <p class="tileInfo">Eskilstuna, 2006 - 2010</p>
-          <p class="tileDescription"></p>
+          <p class="tileDescription">
+            My very first job at 12 years old, as a newspaper salesman. I went
+            door to door selling newspapers in my local area.
+          </p>
         </li>
       </ul>
       <h1>Education</h1>
@@ -53,10 +61,15 @@ const Experience = () => {
           <h4 class="tileTitle">Javadeveloper - EC Utbildning</h4>
           <p class="tileInfo">Malmö, 2020 - 2022</p>
           <p class="tileDescription">
-            Two years of 'yrkeshögskola' in Malmö, Sweden. While our main
-            subject was Java I learned a range of other skills including
-            Javascript, React, Scrum, Git, SQL and Kotlin.
+            Two years of college in Malmö, Sweden. While our main subject was
+            Java I learned a range of other skills including Javascript, React,
+            Angular, Scrum, Git, SQL and Kotlin.
           </p>
+        </li>
+        <li>
+          <h4 class="tileTitle">Swedish Drivers Licence</h4>
+          <p class="tileInfo">Eskilstuna, 2016</p>
+          <p class="tileDescription">Type B swedish drivers licence.</p>
         </li>
         <li>
           <h4 class="tileTitle">
@@ -67,11 +80,6 @@ const Experience = () => {
             Swedish high school with a focus on technical subjects, including
             math and physics.
           </p>
-        </li>
-        <li>
-          <h4 class="tileTitle">Swedish Drivers Licence</h4>
-          <p class="tileInfo">Eskilstuna, 2016</p>
-          <p class="tileDescription">Type B swedish drivers licence.</p>
         </li>
       </ul>
     </div>

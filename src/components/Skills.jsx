@@ -1,13 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import "../style/skills.css";
 
 const Skills = () => {
   return (
     <div class="skills">
-      {/* <div class="personal">
-        <h4 class="name">Adam Johnson</h4>
-        <p class="title">Front-end web developer</p>
-      </div> */}
+      {/*<div class="skillsHeader"></div>*/}
       <div class="about">
         <p class="aboutQ">Residence:</p>
         <p class="aboutA">Sweden</p>
@@ -30,13 +27,29 @@ const Skills = () => {
         <li>
           <p class="skillTitle">HTML & CSS</p>
           <div class="progressBar">
-            <div class="progressBarProgress" style={{ width: "85%" }}>
-              85%
+            <div class="progressBarProgress" style={{ width: "90%" }}>
+              90%
             </div>
           </div>
         </li>
         <li>
           <p class="skillTitle">Java</p>
+          <div class="progressBar">
+            <div class="progressBarProgress" style={{ width: "80%" }}>
+              80%
+            </div>
+          </div>
+        </li>
+        <li>
+          <p class="skillTitle">React</p>
+          <div class="progressBar">
+            <div class="progressBarProgress" style={{ width: "75%" }}>
+              75%
+            </div>
+          </div>
+        </li>
+        <li>
+          <p class="skillTitle">Javascript</p>
           <div class="progressBar">
             <div class="progressBarProgress" style={{ width: "65%" }}>
               65%
@@ -44,23 +57,39 @@ const Skills = () => {
           </div>
         </li>
         <li>
-          <p class="skillTitle">Javascript</p>
+          <p class="skillTitle">Angular</p>
           <div class="progressBar">
-            <div class="progressBarProgress" style={{ width: "50%" }}>
-              50%
+            <div class="progressBarProgress" style={{ width: "60%" }}>
+              60%
+            </div>
+          </div>
+        </li>
+        <li>
+          <p class="skillTitle">Git</p>
+          <div class="progressBar">
+            <div class="progressBarProgress" style={{ width: "60%" }}>
+              60%
             </div>
           </div>
         </li>
         <li>
           <p class="skillTitle">Typescript</p>
           <div class="progressBar">
-            <div class="progressBarProgress" style={{ width: "20%" }}>
-              20%
+            <div class="progressBarProgress" style={{ width: "55%" }}>
+              55%
             </div>
           </div>
         </li>
         <li>
           <p class="skillTitle">C#</p>
+          <div class="progressBar">
+            <div class="progressBarProgress" style={{ width: "40%" }}>
+              40%
+            </div>
+          </div>
+        </li>
+        <li>
+          <p class="skillTitle">SQL</p>
           <div class="progressBar">
             <div class="progressBarProgress" style={{ width: "35%" }}>
               35%
@@ -68,10 +97,18 @@ const Skills = () => {
           </div>
         </li>
         <li>
-          <p class="skillTitle">SQL</p>
+          <p class="skillTitle">Kotlin</p>
           <div class="progressBar">
-            <div class="progressBarProgress" style={{ width: "50%" }}>
-              50%
+            <div class="progressBarProgress" style={{ width: "25%" }}>
+              25%
+            </div>
+          </div>
+        </li>
+        <li>
+          <p class="skillTitle">.NET</p>
+          <div class="progressBar">
+            <div class="progressBarProgress" style={{ width: "25%" }}>
+              25%
             </div>
           </div>
         </li>
