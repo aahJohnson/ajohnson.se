@@ -1,17 +1,49 @@
 import React from "react";
 import "../style/skills.css";
+import { useTranslation } from "react-i18next";
 
 const Skills = () => {
+  const { t } = useTranslation();
+  const { i18n } = useTranslation();
+  function changeLanguage(e) {
+    console.log(e);
+    i18n.changeLanguage(e);
+  }
+
   return (
     <div class="skills">
-      {/*<div class="skillsHeader"></div>*/}
+      <div class="skillsHeader">
+        <img
+          src={require("../media/profilePic.png")}
+          alt="Profile"
+          class="profilePic hexagon"
+          loading="lazy"
+        ></img>
+
+        <img
+          src={require("../media/swedishIcon.png")}
+          alt="Swedish"
+          class="swedishIcon hexagon"
+          onClick={() => changeLanguage("sv")}
+          loading="lazy"
+        ></img>
+
+        <img
+          src={require("../media/englishIcon.png")}
+          alt="English"
+          class="englishIcon hexagon"
+          onClick={() => changeLanguage("en")}
+          value="en"
+          loading="lazy"
+        ></img>
+      </div>
       <div class="about">
-        <p class="aboutQ">Residence:</p>
-        <p class="aboutA">Sweden</p>
-        <p class="aboutQ">City:</p>
+        <p class="aboutQ">{t("residence")}</p>
+        <p class="aboutA">{t("country")}</p>
+        <p class="aboutQ">{t("city")}</p>
         <p class="aboutA">Malmö</p>
-        <p class="aboutQ">Age:</p>
-        <p class="aboutA">27</p>
+        <p class="aboutQ">{t("age")}</p>
+        <p class="aboutA">28</p>
       </div>
       <ul class="languages">
         <li class="swedishProgress">
@@ -20,23 +52,23 @@ const Skills = () => {
         <li class="englishProgress">
           <p>95%</p>
         </li>
-        <li>Swedish</li>
-        <li>English</li>
+        <li>{t("swedish")}</li>
+        <li>{t("english")}</li>
       </ul>
       <ul class="skillBars">
         <li>
           <p class="skillTitle">HTML & CSS</p>
           <div class="progressBar">
-            <div class="progressBarProgress" style={{ width: "90%" }}>
-              90%
+            <div class="progressBarProgress" style={{ width: "95%" }}>
+              95%
             </div>
           </div>
         </li>
         <li>
-          <p class="skillTitle">Java</p>
+          <p class="skillTitle">Javascript</p>
           <div class="progressBar">
-            <div class="progressBarProgress" style={{ width: "80%" }}>
-              80%
+            <div class="progressBarProgress" style={{ width: "85%" }}>
+              85%
             </div>
           </div>
         </li>
@@ -49,7 +81,15 @@ const Skills = () => {
           </div>
         </li>
         <li>
-          <p class="skillTitle">Javascript</p>
+          <p class="skillTitle">Git</p>
+          <div class="progressBar">
+            <div class="progressBarProgress" style={{ width: "70%" }}>
+              70%
+            </div>
+          </div>
+        </li>
+        <li>
+          <p class="skillTitle">Angular</p>
           <div class="progressBar">
             <div class="progressBarProgress" style={{ width: "65%" }}>
               65%
@@ -57,26 +97,26 @@ const Skills = () => {
           </div>
         </li>
         <li>
-          <p class="skillTitle">Angular</p>
-          <div class="progressBar">
-            <div class="progressBarProgress" style={{ width: "60%" }}>
-              60%
-            </div>
-          </div>
-        </li>
-        <li>
-          <p class="skillTitle">Git</p>
-          <div class="progressBar">
-            <div class="progressBarProgress" style={{ width: "60%" }}>
-              60%
-            </div>
-          </div>
-        </li>
-        <li>
           <p class="skillTitle">Typescript</p>
           <div class="progressBar">
-            <div class="progressBarProgress" style={{ width: "55%" }}>
-              55%
+            <div class="progressBarProgress" style={{ width: "65%" }}>
+              65%
+            </div>
+          </div>
+        </li>
+        <li>
+          <p class="skillTitle">Java</p>
+          <div class="progressBar">
+            <div class="progressBarProgress" style={{ width: "60%" }}>
+              60%
+            </div>
+          </div>
+        </li>
+        <li>
+          <p class="skillTitle">SQL</p>
+          <div class="progressBar">
+            <div class="progressBarProgress" style={{ width: "60%" }}>
+              60%
             </div>
           </div>
         </li>
@@ -85,14 +125,6 @@ const Skills = () => {
           <div class="progressBar">
             <div class="progressBarProgress" style={{ width: "40%" }}>
               40%
-            </div>
-          </div>
-        </li>
-        <li>
-          <p class="skillTitle">SQL</p>
-          <div class="progressBar">
-            <div class="progressBarProgress" style={{ width: "35%" }}>
-              35%
             </div>
           </div>
         </li>
@@ -107,8 +139,8 @@ const Skills = () => {
         <li>
           <p class="skillTitle">.NET</p>
           <div class="progressBar">
-            <div class="progressBarProgress" style={{ width: "25%" }}>
-              25%
+            <div class="progressBarProgress" style={{ width: "20%" }}>
+              20%
             </div>
           </div>
         </li>
@@ -158,7 +190,7 @@ const Skills = () => {
         </li>
       </ul>
       <div class="contactInfo">
-        <p>Phone: +46 70 343 12 99</p>
+        <p>{t("phone")}: (+46) 70 343 12 99</p>
         <p>Email: aahjohnson@proton.me</p>
       </div>
     </div>

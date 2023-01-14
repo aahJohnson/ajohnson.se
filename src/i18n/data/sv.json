@@ -1,0 +1,41 @@
+{
+  "title": "Webbutvecklare",
+  "description1": "Jag är 28 år gammal och har erfarenhet av både frontend och backend.",
+  "description2": "Jag har erfarenhet av att arbeta med flera olika javascript frameworks och bibliotek, och är alltid sugen på att lära mig mer och bygga på mina kunskaper.",
+  "description3": "Mina främsta hobbys inkluderar löpning, att kolla på engelsk fotboll och allt som har med datorer att göra, från att bygga med hårdvara till att programmera egna projekt och spela spel tillsammans med vänner.",
+  "description4": "I övrigt är jag även intresserad av finans, ny teknologi samt miljö och hållbarhet, och jag spenderar mycket tid åt att läsa på och lära mig mer inom dessa ämnen.",
+
+  "experience": "Erfarenhet",
+  "expressentitle": "Tidningsförsäljare - Expressen",
+  "expressentext": "Mitt första jobb när jag var 12 år gammal, som tidningsförsäljare åt Expressen. Jag sålde tidningar i mitt närområde vid mina kunders dörr.",
+  "pitcherstitle": "Servitör/Bartender - Pitcher's",
+  "pitcherstext": "Bartending, servering av mat, städning osv, jag var även ansvarig för öppning och stängning emellanåt.",
+  "papastapastitle": "Servitör/Bartender - Papas Tapas",
+  "papastapastext": "Jag var extraanställd som servitör och bartender under den första halvan av 2016.",
+  "elitehotelstitle": "Receptionist - Elite Hotels of Sweden",
+  "elitehotelstext": "Under mina år hos Elite Hotels arbetade jag främst nätter och var då ensam ansvarig för hela hotellet med 132 rum. Detta inkluderade bland annat administrativa uppgifter, service och städning.",
+  "bishopsarmstitle": "Bartender - Bishops Arms",
+  "bishopsarmstext": "Under sommaren 2020 arbetade jag som bartender och servitör på Bishops Arms i Eskilstuna där jag främst stog i baren men även serverade mat och pratade med våra gäster.",
+  "knologramtitle": "Praktik - Knologram",
+  "knologramtext": "6 veckors praktik under våren 2022 som en del av min yrkeshögskole-utbildning, där jag främst arbetade med HTML, CSS och .NET.",
+  "pixagontitle": "Frilansande Webbutvecklare - Pixagon",
+  "pixagontext": "I Januari 2023 startade jag mitt egna företag där jag skapar hemsidor främst åt små företag. Teknikerna jag använder mest är React, Angular och vanlig Javascript.",
+
+  "education": "Utbildning",
+  "teknikcollegetitle": "Tekniskt Gymnasium - Teknikcollege Mälardalen",
+  "teknikcollegetext": "Teknisk inriktning på gymnasium, med mycket matte och fysik samt en del olika datorkurser.",
+  "driverslicencetitle": "Körkort",
+  "driverslicencetext": "B-körkort i Sverige.",
+  "ecutbildningtitle": "Javautvecklare - EC Utbildning",
+  "ecutbildningtext": "En två-årig utbildning på yrkeshögskola i Malmö. Vårat huvudfokus var Java men kursen var väldigt blandad, och jag lärde mig under denna tid bland annat Javascript, React, Angular, Scrum, Git, SQL och Kotlin.",
+
+  "residence": "Land",
+  "city": "Stad",
+  "age": "Ålder",
+  "country": "Sverige",
+
+  "swedish": "Svenska",
+  "english": "Engelska",
+
+  "phone": "Telefonnr"
+}

@@ -1,20 +1,24 @@
 import React, { Component } from "react";
 import "../style/home.css";
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
+  const { t } = useTranslation();
   return (
-    <div class="homeBackground">
+    <div class="homeBackground" loading="lazy">
       <div class="home">
         <div class="person">
           <h1 class="name">Adam Johnson</h1>
-          <p class="title">Frontend Developer</p>
+          <p class="title">{t("title")}</p>
         </div>
         <p class="introduction">
-          A 27 year old recent developer-graduate looking to transition from a
-          history in service-oriented jobs to web development. My interests
-          include running, watching football aswell as anything to do with
-          computers, from building them to programming and playing games with
-          friends.
+          {t("description1")}
+          <br />
+          {t("description2")}
+          <br />
+          {t("description3")}
+          <br />
+          {t("description4")}
         </p>
       </div>
     </div>

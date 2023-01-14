@@ -1,0 +1,41 @@
+{
+  "title": "Web Developer",
+  "description1": "A 28 year old Web Developer with history in both frontend and backend.",
+  "description2": "I have experience in working with various javascript frameworks/libraries and are always excited to learn new things and expand my knowledge.",
+  "description3": "My hobbies include running, watching football aswell as anything to do with computers, from building them to programming and playing games with friends.",
+  "description4": "I am also very interested in finance, new technology and environmental sustainability, and spend a lot of time learning about these topics.",
+
+  "experience": "Experience",
+  "expressentitle": "Newspaper Salesman - Expressen",
+  "expressentext": "My very first job at 12 years old, as a newspaper salesman. I went door to door selling newspapers in my local area.",
+  "pitcherstitle": "Waiter/Bartender - Pitcher's",
+  "pitcherstext": "Bartending, serving food, keeping the restaurant clean.",
+  "papastapastitle": "Waiter/Bartender - Papas Tapas",
+  "papastapastext": "I worked extra as a waiter and some nights as a bartender during the first half of 2016.",
+  "elitehotelstitle": "Receptionist - Elite Hotels of Sweden",
+  "elitehotelstext": "During this period i worked mostly nights, being the only employee on site responsible for the entire 132 room hotel. This included administrative tasks, cleaning and service.",
+  "bishopsarmstitle": "Bartender - Bishops Arms",
+  "bishopsarmstext": "I worked as a bartender and waiter during the spring and summer of 2020, mainly serving food and drinks or chatting with customers.",
+  "knologramtitle": "Internship - Knologram",
+  "knologramtext": "6 weeks of internship at Knologram in the spring of 2022, mainly working with HTML, CSS and .NET.",
+  "pixagontitle": "Freelance Web Developer - Pixagon",
+  "pixagontext": "Started my own company selling custom made websites to small companies in January 2023. I create websites using React, Angular and/or plain Javascript.",
+
+  "education": "Education",
+  "teknikcollegetitle": "Technical High School - Teknikcollege Mälardalen",
+  "teknikcollegetext": "Swedish high school with a focus on technical subjects, including math and physics.",
+  "driverslicencetitle": "Swedish Drivers Licence",
+  "driverslicencetext": "Type B swedish drivers licence.",
+  "ecutbildningtitle": "Javadeveloper - EC Utbildning",
+  "ecutbildningtext": "Two years of college in Malmö, Sweden. While our main subject was Java I learned a range of other skills including Javascript, React, Angular, Scrum, Git, SQL and Kotlin.",
+
+  "residence": "Residence",
+  "city": "City",
+  "age": "Age",
+  "country": "Sweden",
+
+  "swedish": "Swedish",
+  "english": "English",
+
+  "phone": "Phone"
+}

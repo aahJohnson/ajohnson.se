@@ -6,9 +6,37 @@
 
 /* Skills Header */
 .skillsHeader {
-  padding: 1rem 0 1rem 0;
+  position: relative;
   margin: 0 10% 0 10%;
+  padding-bottom: 15%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.profilePic {
+  width: 60%;
+  margin-top: 2rem;
+}
+
+.swedishIcon {
+  left: 15%;
+}
+
+.englishIcon {
+  right: 15%;
+}
+
+.swedishIcon,
+.englishIcon {
+  position: absolute;
+  display: inline-block;
+  width: 15%;
+  bottom: 1rem;
+  cursor: pointer;
+}
+
+.hexagon {
+  clip-path: polygon(50% 0, 92.5% 25%, 92.5% 75%, 50% 100%, 7.5% 75%, 7.5% 25%);
 }
 
 /* About */

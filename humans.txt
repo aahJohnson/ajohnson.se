@@ -1,0 +1,20 @@
+/* TEAM */
+
+Adam Johnson
+
+Location: Malmö, Sweden
+
+/* THANKS */
+
+<a href="https://www.flaticon.com/free-icons/sweden" title="sweden icons">Sweden icons created by GeekClick - Flaticon</a>
+                            
+/* SITE */
+
+Last update: 2023/01/13
+
+                            
+Standards: HTML5, CSS3, React
+
+Components: gh-pages, i18next, React Router DOM
+
+Software: VS Code, Github
