@@ -33,6 +33,12 @@
   width: 15%;
   bottom: 1rem;
   cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.swedishIcon:hover,
+.englishIcon:hover {
+  transform: scale(1.2);
 }
 
 .hexagon {

@@ -17,6 +17,7 @@ const Skills = () => {
           src={require("../media/profilePic.png")}
           alt="Profile"
           class="profilePic hexagon"
+          title="Adam Johnson"
           loading="lazy"
         ></img>
 
@@ -24,6 +25,7 @@ const Skills = () => {
           src={require("../media/swedishIcon.png")}
           alt="Swedish"
           class="swedishIcon hexagon"
+          title="Swedish"
           onClick={() => changeLanguage("sv")}
           loading="lazy"
         ></img>
@@ -32,8 +34,8 @@ const Skills = () => {
           src={require("../media/englishIcon.png")}
           alt="English"
           class="englishIcon hexagon"
+          title="English"
           onClick={() => changeLanguage("en")}
-          value="en"
           loading="lazy"
         ></img>
       </div>

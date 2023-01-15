@@ -10,7 +10,7 @@ const Experience = () => {
       <ul class="expList">
         <li>
           <h4 class="tileTitle">{t("pixagontitle")}</h4>
-          <p class="tileInfo">Malmö, 2023 - </p>
+          <p class="tileInfo">Malmö, 2023</p>
           <p class="tileDescription">{t("pixagontext")}</p>
         </li>
         <li>
