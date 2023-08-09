@@ -7,38 +7,35 @@
 /* Skills Header */
 .skillsHeader {
   position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   margin: 0 10% 0 10%;
-  padding-bottom: 15%;
+  padding-bottom: 20%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   text-align: center;
 }
 
 .profilePic {
+  grid-column: 1/4;
   width: 60%;
-  margin-top: 2rem;
-}
-
-.swedishIcon {
-  left: 15%;
-}
-
-.englishIcon {
-  right: 15%;
+  margin: 2rem 0 0 50%;
+  transform: translateX(-50%);
 }
 
 .swedishIcon,
-.englishIcon {
-  position: absolute;
-  display: inline-block;
-  width: 15%;
-  bottom: 1rem;
+.englishIcon,
+.dutchIcon {
+  width: 50%;
+  margin: 1rem 0 0 50%;
+  transform: translateX(-50%);
   cursor: pointer;
-  transition: transform 0.2s;
+  transition: transform 0.25s;
 }
 
 .swedishIcon:hover,
-.englishIcon:hover {
-  transform: scale(1.2);
+.englishIcon:hover,
+.dutchIcon:hover {
+  transform: translateX(-50%) scale(1.2);
 }
 
 .hexagon {
@@ -69,9 +66,9 @@
 .languages {
   list-style: none;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  column-gap: auto;
+  column-gap: 10%;
   padding: 1rem;
   margin: 5% 10% 0 10%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -82,20 +79,25 @@
   margin: 0.25rem auto;
 }
 
-.swedishProgress {
+.swedishProgress,
+.englishProgress,
+.dutchProgress {
   display: inline-block;
   height: 4rem;
   width: 4rem;
-  background: conic-gradient(#ffa500 360deg, #21262d 0deg);
   border-radius: 50%;
 }
 
+.swedishProgress {
+  background: conic-gradient(#ffa500 360deg, #21262d 0deg);
+}
+
 .englishProgress {
-  display: inline-block;
-  height: 4rem;
-  width: 4rem;
   background: conic-gradient(#ffa500 342deg, #21262d 18deg);
-  border-radius: 50%;
+}
+
+.dutchProgress {
+  background: conic-gradient(#ffa500 18deg, #21262d 18deg);
 }
 
 .languages p {

@@ -38,6 +38,15 @@ const Skills = () => {
           onClick={() => changeLanguage("en")}
           loading="lazy"
         ></img>
+
+        <img
+          src={require("../media/dutchIcon.png")}
+          alt="Dutch"
+          class="dutchIcon hexagon"
+          title="Dutch"
+          onClick={() => changeLanguage("nl")}
+          loading="lazy"
+        ></img>
       </div>
       <div class="about">
         <p class="aboutQ">{t("residence")}</p>
@@ -54,8 +63,12 @@ const Skills = () => {
         <li class="englishProgress">
           <p>95%</p>
         </li>
+        <li class="dutchProgress">
+          <p>5%</p>
+        </li>
         <li>{t("swedish")}</li>
         <li>{t("english")}</li>
+        <li>{t("dutch")}</li>
       </ul>
       <ul class="skillBars">
         <li>
@@ -69,16 +82,16 @@ const Skills = () => {
         <li>
           <p class="skillTitle">Javascript</p>
           <div class="progressBar">
-            <div class="progressBarProgress" style={{ width: "85%" }}>
-              85%
+            <div class="progressBarProgress" style={{ width: "90%" }}>
+              90%
             </div>
           </div>
         </li>
         <li>
           <p class="skillTitle">React</p>
           <div class="progressBar">
-            <div class="progressBarProgress" style={{ width: "75%" }}>
-              75%
+            <div class="progressBarProgress" style={{ width: "80%" }}>
+              80%
             </div>
           </div>
         </li>
@@ -91,23 +104,23 @@ const Skills = () => {
           </div>
         </li>
         <li>
-          <p class="skillTitle">Angular</p>
-          <div class="progressBar">
-            <div class="progressBarProgress" style={{ width: "65%" }}>
-              65%
-            </div>
-          </div>
-        </li>
-        <li>
           <p class="skillTitle">Typescript</p>
           <div class="progressBar">
-            <div class="progressBarProgress" style={{ width: "65%" }}>
-              65%
+            <div class="progressBarProgress" style={{ width: "70%" }}>
+              70%
             </div>
           </div>
         </li>
         <li>
           <p class="skillTitle">Java</p>
+          <div class="progressBar">
+            <div class="progressBarProgress" style={{ width: "70%" }}>
+              70%
+            </div>
+          </div>
+        </li>
+        <li>
+          <p class="skillTitle">Angular</p>
           <div class="progressBar">
             <div class="progressBarProgress" style={{ width: "60%" }}>
               60%
@@ -125,14 +138,6 @@ const Skills = () => {
         <li>
           <p class="skillTitle">C#</p>
           <div class="progressBar">
-            <div class="progressBarProgress" style={{ width: "40%" }}>
-              40%
-            </div>
-          </div>
-        </li>
-        <li>
-          <p class="skillTitle">Kotlin</p>
-          <div class="progressBar">
             <div class="progressBarProgress" style={{ width: "25%" }}>
               25%
             </div>
@@ -141,8 +146,16 @@ const Skills = () => {
         <li>
           <p class="skillTitle">.NET</p>
           <div class="progressBar">
-            <div class="progressBarProgress" style={{ width: "20%" }}>
-              20%
+            <div class="progressBarProgress" style={{ width: "15%" }}>
+              15%
+            </div>
+          </div>
+        </li>
+        <li>
+          <p class="skillTitle">Kotlin</p>
+          <div class="progressBar">
+            <div class="progressBarProgress" style={{ width: "10%" }}>
+              10%
             </div>
           </div>
         </li>
@@ -193,7 +206,7 @@ const Skills = () => {
       </ul>
       <div class="contactInfo">
         <p>{t("phone")}: (+46) 70 343 12 99</p>
-        <p>Email: aahjohnson@proton.me</p>
+        <p>Email: johnson@pixagon.se</p>
       </div>
     </div>
   );
