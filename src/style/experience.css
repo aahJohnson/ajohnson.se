@@ -42,6 +42,10 @@
   color: #8b949e;
 }
 
+.tileLink {
+  color: white;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 1200px) {

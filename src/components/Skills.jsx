@@ -151,14 +151,6 @@ const Skills = () => {
             </div>
           </div>
         </li>
-        <li>
-          <p class="skillTitle">Kotlin</p>
-          <div class="progressBar">
-            <div class="progressBarProgress" style={{ width: "10%" }}>
-              10%
-            </div>
-          </div>
-        </li>
       </ul>
       <ul class="contact">
         <li>
