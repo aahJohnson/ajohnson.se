@@ -17,7 +17,7 @@ const Skills = () => {
           src={require("../media/profilePic.png")}
           alt="Profile"
           class="profilePic hexagon"
-          title="Adam Johnson"
+          title="Ada Johnson"
           loading="lazy"
         ></img>
 
@@ -54,7 +54,7 @@ const Skills = () => {
         <p class="aboutQ">{t("city")}</p>
         <p class="aboutA">Malmö</p>
         <p class="aboutQ">{t("age")}</p>
-        <p class="aboutA">28</p>
+        <p class="aboutA">29</p>
       </div>
       <ul class="languages">
         <li class="swedishProgress">

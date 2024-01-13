@@ -8,7 +8,7 @@ const Home = () => {
     <div class="homeBackground" loading="lazy">
       <div class="home">
         <div class="person">
-          <h1 class="name">Adam Johnson</h1>
+          <h1 class="name">Ada Johnson</h1>
           <p class="title">{t("title")}</p>
         </div>
         <p class="introduction">

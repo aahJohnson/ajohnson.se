@@ -1,1 +1,1 @@
-Personal CV for Adam Johnson, created with react.
+Personal CV for Ada Johnson, created with react.
