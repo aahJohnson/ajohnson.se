@@ -61,7 +61,7 @@ const Skills = () => {
           <p>100%</p>
         </li>
         <li class="englishProgress">
-          <p>95%</p>
+          <p>100%</p>
         </li>
         <li class="dutchProgress">
           <p>5%</p>
@@ -88,6 +88,14 @@ const Skills = () => {
           </div>
         </li>
         <li>
+          <p class="skillTitle">Typescript</p>
+          <div class="progressBar">
+            <div class="progressBarProgress" style={{ width: "80%" }}>
+              80%
+            </div>
+          </div>
+        </li>
+        <li>
           <p class="skillTitle">React</p>
           <div class="progressBar">
             <div class="progressBarProgress" style={{ width: "80%" }}>
@@ -98,16 +106,8 @@ const Skills = () => {
         <li>
           <p class="skillTitle">Git</p>
           <div class="progressBar">
-            <div class="progressBarProgress" style={{ width: "70%" }}>
-              70%
-            </div>
-          </div>
-        </li>
-        <li>
-          <p class="skillTitle">Typescript</p>
-          <div class="progressBar">
-            <div class="progressBarProgress" style={{ width: "70%" }}>
-              70%
+            <div class="progressBarProgress" style={{ width: "75%" }}>
+              75%
             </div>
           </div>
         </li>
@@ -169,7 +169,7 @@ const Skills = () => {
         </li>
         <li>
           <a
-            href="https://www.linkedin.com/in/adam-johnson-513877145/"
+            href="https://www.linkedin.com/in/adajohnson1/"
             target="_blank"
             rel="noreferrer"
           >
@@ -182,11 +182,7 @@ const Skills = () => {
           </a>
         </li>
         <li>
-          <a
-            href="mailto:aahjohnson@proton.me"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="mailto:johnson@pixagon.se" target="_blank" rel="noreferrer">
             <img
               src={require("../media/emailIcon.png")}
               alt="Email"

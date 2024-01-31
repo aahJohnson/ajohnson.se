@@ -1,5 +1,6 @@
 {
   "title": "Junior Full Stack Web Developer",
+  "title2": "Founder of Pixagon",
   "description1": "A 29 year old junior Full Stack Web Developer with history in both frontend and backend.",
   "description2": "I have experience working with, among other things, Java and JavaScript, as well as several different JavaScript frameworks and libraries, and I am always eager to learn more and expand my knowledge.",
   "description3": "My hobbies include running, watching football aswell as anything to do with computers, from building them to programming and playing games with friends.",
@@ -18,9 +19,8 @@
   "bishopsarmstext": "I worked as a bartender and waiter during the spring and summer of 2020, mainly serving food and drinks or chatting with customers.",
   "knologramtitle": "Internship - Knologram",
   "knologramtext": "6 weeks of internship at Knologram in the spring of 2022, mainly working with HTML, CSS and .NET.",
-  "pixagontitle": "Freelance Web Developer - Pixagon",
+  "pixagontitle": "Freelance Web Developer - ",
   "pixagontext": "Started my own company creating custom-made websites in May 2023. I create websites using React, Angular and/or plain Javascript.",
-  "pixagonlink": "https://www.pixagon.se/",
 
   "education": "Education",
   "teknikcollegetitle": "Technical High School - Teknikcollege Mälardalen",

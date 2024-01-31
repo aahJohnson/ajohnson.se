@@ -9,12 +9,14 @@ const Experience = () => {
       <h1>{t("experience")}</h1>
       <ul class="expList">
         <li>
-          <h4 class="tileTitle">{t("pixagontitle")}</h4>
+          <h4 class="tileTitle">
+            {t("pixagontitle")}
+            <a class="tileLink" href="https://www.pixagon.se/" target="blank_">
+              Pixagon
+            </a>
+          </h4>
           <p class="tileInfo">Malmö, 2023</p>
           <p class="tileDescription">{t("pixagontext")}</p>
-          <a class="tileLink" href="https://www.pixagon.se/" target="blank_">
-            {t("pixagonlink")}
-          </a>
         </li>
         <li>
           <h4 class="tileTitle">{t("knologramtitle")}</h4>

@@ -93,7 +93,7 @@
 }
 
 .englishProgress {
-  background: conic-gradient(#ffa500 342deg, #21262d 18deg);
+  background: conic-gradient(#ffa500 360deg, #21262d 0deg);
 }
 
 .dutchProgress {

@@ -1,5 +1,6 @@
 {
   "title": "Junior Fullstack Webbutvecklare",
+  "title2": "Grundare av Pixagon",
   "description1": "Jag är 29 år gammal och har erfarenhet av både frontend och backend.",
   "description2": "Jag har erfarenhet av att arbeta med bland annat java och javascript samt flera olika javascript frameworks och bibliotek, och är alltid sugen på att lära mig mer och bygga på mina kunskaper.",
   "description3": "Mina främsta hobbys inkluderar löpning, att kolla på engelsk fotboll och allt som har med datorer att göra, från att bygga med hårdvara till att programmera egna projekt och spela spel tillsammans med vänner.",
@@ -18,9 +19,8 @@
   "bishopsarmstext": "Under sommaren 2020 arbetade jag som bartender och servitör på Bishops Arms i Eskilstuna där jag främst stog i baren men även serverade mat och pratade med våra gäster.",
   "knologramtitle": "Praktik - Knologram",
   "knologramtext": "6 veckors praktik under våren 2022 som en del av min yrkeshögskole-utbildning, där jag främst arbetade med HTML, CSS och .NET.",
-  "pixagontitle": "Frilansande Webbutvecklare - Pixagon",
+  "pixagontitle": "Frilansande Webbutvecklare - ",
   "pixagontext": "I Maj 2023 startade jag mitt egna företag där jag skapar hemsidor. Teknikerna jag använder mest är React, Angular och vanlig Javascript.",
-  "pixagonlink": "https://www.pixagon.se/",
 
   "education": "Utbildning",
   "teknikcollegetitle": "Tekniskt Gymnasium - Teknikcollege Mälardalen",

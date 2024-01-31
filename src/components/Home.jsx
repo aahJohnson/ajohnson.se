@@ -10,6 +10,7 @@ const Home = () => {
         <div class="person">
           <h1 class="name">Ada Johnson</h1>
           <p class="title">{t("title")}</p>
+          <p class="title">{t("title2")}</p>
         </div>
         <p class="introduction">
           {t("description1")}
