@@ -15,7 +15,7 @@ const Experience = () => {
               Pixagon
             </a>
           </h4>
-          <p class="tileInfo">Malmö, 2023</p>
+          <p class="tileInfo">Malmö, 2023 - </p>
           <p class="tileDescription">{t("pixagontext")}</p>
         </li>
         <li>
@@ -57,14 +57,22 @@ const Experience = () => {
           <p class="tileDescription">{t("ecutbildningtext")}</p>
         </li>
         <li>
-          <h4 class="tileTitle">{t("driverslicencetitle")}</h4>
-          <p class="tileInfo">Eskilstuna, 2016</p>
-          <p class="tileDescription">{t("driverslicencetext")}</p>
-        </li>
-        <li>
           <h4 class="tileTitle">{t("teknikcollegetitle")}</h4>
           <p class="tileInfo">Eskilstuna, 2010 - 2013</p>
           <p class="tileDescription">{t("teknikcollegetext")}</p>
+        </li>
+      </ul>
+      <h1>{t("otherinfo")}</h1>
+      <ul class="expList">
+        <li>
+          <h4 class="tileTitle">{t("iqtitle")}</h4>
+          <p class="tileInfo">Malmö, 2024</p>
+          <p class="tileDescription">{t("iqtext")}</p>
+        </li>
+        <li>
+          <h4 class="tileTitle">{t("driverslicencetitle")}</h4>
+          <p class="tileInfo">Eskilstuna, 2016</p>
+          <p class="tileDescription">{t("driverslicencetext")}</p>
         </li>
       </ul>
     </div>

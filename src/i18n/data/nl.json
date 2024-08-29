@@ -25,10 +25,14 @@
   "education": "Opleiding",
   "teknikcollegetitle": "Technische Middelbare School - Teknikcollege Mälardalen",
   "teknikcollegetext": "Technische richting op de middelbare school, met veel wiskunde en natuurkunde en enkele verschillende computercursussen.",
-  "driverslicencetitle": "Rijbewijs",
-  "driverslicencetext": "B-rijbewijs in Zweden.",
   "ecutbildningtitle": "Java-ontwikkelaar - EC Opleiding",
   "ecutbildningtext": "Een tweejarige opleiding aan de beroepsopleiding in Malmö. Onze belangrijkste focus was Java, maar de cursus was zeer gevarieerd, en tijdens deze tijd leerde ik onder andere Javascript, React, Angular, Scrum, Git, SQL en Kotlin.",
+
+  "otherinfo": "Andere relevante informatie",
+  "iqtitle": "Mensa",
+  "iqtext": "Ik ben onlangs lid geworden van Mensa, na een IQ-resultaat van 135 of hoger te hebben behaald op hun toelatingstest.",
+  "driverslicencetitle": "Zweeds Rijbewijs",
+  "driverslicencetext": "Type B Zweeds rijbewijs.",
 
   "residence": "Land",
   "city": "Stad",

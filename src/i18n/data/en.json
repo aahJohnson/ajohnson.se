@@ -25,10 +25,14 @@
   "education": "Education",
   "teknikcollegetitle": "Technical High School - Teknikcollege Mälardalen",
   "teknikcollegetext": "Swedish high school with a focus on technical subjects, including math and physics.",
-  "driverslicencetitle": "Swedish Drivers Licence",
-  "driverslicencetext": "Type B swedish drivers licence.",
   "ecutbildningtitle": "Javadeveloper - EC Utbildning",
   "ecutbildningtext": "Two years of college in Malmö, Sweden. While our main subject was Java I learned a range of other skills including Javascript, React, Angular, Scrum, Git, SQL and Kotlin.",
+
+  "otherinfo": "Other relevant information",
+  "iqtitle": "Mensa",
+  "iqtext": "I've recently joined Mensa after achieving an IQ score of 135 or higher on their admission test.",
+  "driverslicencetitle": "Swedish Driver's License",
+  "driverslicencetext": "Swedish Type B driver's license.",
 
   "residence": "Residence",
   "city": "City",

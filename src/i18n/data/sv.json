@@ -25,10 +25,14 @@
   "education": "Utbildning",
   "teknikcollegetitle": "Tekniskt Gymnasium - Teknikcollege Mälardalen",
   "teknikcollegetext": "Teknisk inriktning på gymnasium, med mycket matte och fysik samt en del olika datorkurser.",
-  "driverslicencetitle": "Körkort",
-  "driverslicencetext": "B-körkort i Sverige.",
   "ecutbildningtitle": "Javautvecklare - EC Utbildning",
   "ecutbildningtext": "En två-årig utbildning på yrkeshögskola i Malmö. Vårat huvudfokus var Java men kursen var väldigt blandad, och jag lärde mig under denna tid bland annat Javascript, React, Angular, Scrum, Git, SQL och Kotlin.",
+
+  "otherinfo": "Annan relevant information",
+  "iqtitle": "Mensa",
+  "iqtext": "Jag har nyligen gått med i Mensa efter att ha fått ett resultat på 135 eller högre IQ på deras inträdesprov.",
+  "driverslicencetitle": "Svenskt Körkort",
+  "driverslicencetext": "Typ B svenskt körkort.",
 
   "residence": "Land",
   "city": "Stad",
