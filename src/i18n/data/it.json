@@ -1,0 +1,47 @@
+{
+  "title": "Sviluppatore Web Full Stack Junior",
+  "title2": "Fondatore di Pixagon",
+  "description1": "Sviluppatore Web Full Stack Junior di 29 anni con esperienza sia nel frontend che nel backend.",
+  "description2": "Ho esperienza lavorando con, tra le altre cose, Java e JavaScript, oltre a diversi framework e librerie JavaScript. Sono sempre desideroso di imparare di più e ampliare le mie conoscenze.",
+  "description3": "I miei hobby includono la corsa, guardare il calcio e tutto ciò che riguarda i computer, dal costruirli al programmarli e giocare con gli amici.",
+  "description4": "Sono anche molto interessato alla finanza, alla nuova tecnologia e alla sostenibilità ambientale, e passo molto tempo ad approfondire questi argomenti.",
+
+  "experience": "Esperienza",
+  "expressentitle": "Venditore di Giornali - Expressen",
+  "expressentext": "Il mio primissimo lavoro a 12 anni, come venditore di giornali. Andavo porta a porta vendendo giornali nella mia zona.",
+  "pitcherstitle": "Cameriere/Barista - Pitcher's",
+  "pitcherstext": "Servire al bar, servire cibo, mantenere pulito il ristorante.",
+  "papastapastitle": "Cameriere/Barista - Papas Tapas",
+  "papastapastext": "Ho lavorato extra come cameriere e alcune sere come barista nella prima metà del 2016.",
+  "elitehotelstitle": "Receptionist - Elite Hotels of Sweden",
+  "elitehotelstext": "Durante questo periodo ho lavorato principalmente di notte, essendo l'unico dipendente in servizio responsabile dell'intero hotel di 132 camere. Questo includeva compiti amministrativi, pulizia e servizio.",
+  "bishopsarmstitle": "Barista - Bishops Arms",
+  "bishopsarmstext": "Ho lavorato come barista e cameriere durante la primavera e l'estate del 2020, principalmente servendo cibo e bevande o chiacchierando con i clienti.",
+  "knologramtitle": "Tirocinio - Knologram",
+  "knologramtext": "6 settimane di tirocinio presso Knologram nella primavera del 2022, lavorando principalmente con HTML, CSS e .NET.",
+  "pixagontitle": "Sviluppatore Web Freelance - ",
+  "pixagontext": "Ho avviato la mia azienda creando siti web su misura nel maggio 2023. Creo siti web utilizzando React, Angular e/o puro Javascript.",
+
+  "education": "Istruzione",
+  "teknikcollegetitle": "Scuola Superiore Tecnica - Teknikcollege Mälardalen",
+  "teknikcollegetext": "Scuola superiore svedese con un focus su materie tecniche, tra cui matematica e fisica.",
+  "ecutbildningtitle": "Sviluppatore Java - EC Utbildning",
+  "ecutbildningtext": "Due anni di università a Malmö, Svezia. Sebbene la nostra materia principale fosse Java, ho imparato una serie di altre competenze tra cui Javascript, React, Angular, Scrum, Git, SQL e Kotlin.",
+
+  "otherinfo": "Altre informazioni rilevanti",
+  "iqtitle": "Mensa",
+  "iqtext": "Recentemente mi sono unito a Mensa dopo aver ottenuto un punteggio di 135+ nel loro test di ammissione.",
+  "driverslicencetitle": "Patente di Guida Svedese",
+  "driverslicencetext": "Patente di guida svedese di tipo B.",
+
+  "residence": "Residenza",
+  "city": "Città",
+  "age": "Età",
+  "country": "Svezia",
+
+  "swedish": "Svedese",
+  "english": "Inglese",
+  "italian": "Italiano",
+
+  "phone": "Telefono"
+}

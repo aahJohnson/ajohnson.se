@@ -11,14 +11,14 @@ i18n.use(initReactI18next).init({
     sv: {
       translations: require("./data/sv.json"),
     },
-    nl: {
-      translations: require("./data/nl.json"),
+    it: {
+      translations: require("./data/it.json"),
     },
   },
   ns: ["translations"],
   defaultNS: "translations",
 });
 
-i18n.languages = ["en", "sv", "nl"];
+i18n.languages = ["en", "sv", "it"];
 
 export default i18n;

@@ -30,7 +30,7 @@
 
   "otherinfo": "Annan relevant information",
   "iqtitle": "Mensa",
-  "iqtext": "Jag har nyligen gått med i Mensa efter att ha fått ett resultat på 135 eller högre IQ på deras inträdesprov.",
+  "iqtext": "Jag har nyligen gått med i Mensa efter att ha fått ett resultat på 135+ IQ på deras inträdesprov.",
   "driverslicencetitle": "Svenskt Körkort",
   "driverslicencetext": "Typ B svenskt körkort.",
 
@@ -41,7 +41,7 @@
 
   "swedish": "Svenska",
   "english": "Engelska",
-  "dutch": "Nederländska",
+  "italian": "Italienska",
 
   "phone": "Telefonnr"
 }

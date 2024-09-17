@@ -40,11 +40,11 @@ const Skills = () => {
         ></img>
 
         <img
-          src={require("../media/dutchIcon.png")}
-          alt="Dutch"
-          class="dutchIcon hexagon"
-          title="Dutch"
-          onClick={() => changeLanguage("nl")}
+          src={require("../media/italianIcon.png")}
+          alt="Italian"
+          class="italianIcon hexagon"
+          title="Italian"
+          onClick={() => changeLanguage("it")}
           loading="lazy"
         ></img>
       </div>
@@ -63,12 +63,12 @@ const Skills = () => {
         <li class="englishProgress">
           <p>100%</p>
         </li>
-        <li class="dutchProgress">
+        <li class="italianProgress">
           <p>5%</p>
         </li>
         <li>{t("swedish")}</li>
         <li>{t("english")}</li>
-        <li>{t("dutch")}</li>
+        <li>{t("italian")}</li>
       </ul>
       <ul class="skillBars">
         <li>

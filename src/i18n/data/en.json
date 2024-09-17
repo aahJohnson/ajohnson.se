@@ -30,7 +30,7 @@
 
   "otherinfo": "Other relevant information",
   "iqtitle": "Mensa",
-  "iqtext": "I've recently joined Mensa after achieving an IQ score of 135 or higher on their admission test.",
+  "iqtext": "I've recently joined Mensa after achieving an IQ score of 135+ on their admission test.",
   "driverslicencetitle": "Swedish Driver's License",
   "driverslicencetext": "Swedish Type B driver's license.",
 
@@ -41,7 +41,7 @@
 
   "swedish": "Swedish",
   "english": "English",
-  "dutch": "Dutch",
+  "italian": "Italian",
 
   "phone": "Phone"
 }
